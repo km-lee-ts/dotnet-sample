@@ -49,6 +49,7 @@
     <Content Include="Index.aspx" />
     <Content Include="Success.aspx" />
     <Content Include="Fail.aspx" />
+    <Content Include="VirtualAccountCallback.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Success.aspx.cs">

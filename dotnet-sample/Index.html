@@ -37,7 +37,7 @@
         };
 
         if (method === '가상계좌') {
-            paymentData.virtualAccountCallbackUrl = 'http://127.0.0.1:8080/VirtualAccountCallback.aspx'
+            paymentData.virtualAccountCallbackUrl = 'http://127.0.0.1:8080/VirtualAccountCallback.aspx/Process'
         }
 
         tossPayments.requestPayment(method, paymentData);
